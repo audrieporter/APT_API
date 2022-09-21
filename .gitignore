@@ -1,0 +1,5 @@
+# ignore files
+node_modules/
+# for production include package-lock.json, here hiding to reduce git dependency security alerts
+package-lock.json 
+.env
