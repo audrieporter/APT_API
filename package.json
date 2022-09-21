@@ -1,0 +1,25 @@
+{
+  "name": "apt_api",
+  "version": "1.0.0",
+  "description": "REST API for aggregating news articles related to advanced threat actors",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audrieporter/APT_API.git"
+  },
+  "author": "Audrie Porter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audrieporter/APT_API/issues"
+  },
+  "homepage": "https://github.com/audrieporter/APT_API#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
