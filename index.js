@@ -41,9 +41,6 @@ function getAllArticles(callback) {
     axios.get(source.address).then((response) => {
       let html = response.data;
       let $ = cheerio.load(html);
-      /**
-       * get article
-       */
 
       // for each term
       searchTerms.forEach((term) => {
